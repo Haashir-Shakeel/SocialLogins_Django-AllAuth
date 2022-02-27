@@ -1,0 +1,23 @@
+{% load socialaccount%}
+{% providers_media_js%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Login</title>
+</head>
+<body>
+    {{ user}}
+    <button>
+        <!-- <a href="{% provider_login_url 'facebook' method='oauth2' %}">Login using Facebook</a> -->
+        <a href="{% provider_login_url 'facebook' method='js_sdk' %}">Login using Facebook</a>
+     </button>
+     <button>
+        <a href="#">Login using Google</a>
+     </button>
+
+</body>
+</html>
