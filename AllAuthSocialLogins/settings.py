@@ -148,7 +148,18 @@ SOCIALACCOUNT_PROVIDERS = {
             'secret': '18f0a790ff15e749682e656ba573bc49',
             'key': ''
         }
-    }
+    },
+    'google': {
+        # For each OAuth based provider, either add a ``SocialApp``
+        # (``socialaccount`` app) containing the required client
+        # credentials, or list them here:
+        'APP': {
+            'client_id': '220431837461-jp82atil5n557tqeksdd5okprlv7rcvp.apps.googleusercontent.com',
+            'secret': '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',
+            'key': ''
+        }
+    },
+
 }
 
 LOGIN_REDIRECT_URL="/"
