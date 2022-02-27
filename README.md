@@ -8,6 +8,8 @@ The official documentation of all auth is at https://django-allauth.readthedocs.
 
 # How To Run App
 
+Install all dependencies/packages using command "pip install -r requirements.txt"
+
 Add google and facebook apps by providing client id and secret in settings.py file under 'SOCIALACCOUNT_PROVIDERS' 
 
 You can also do this by adding google and facebook apps by logging into '/admin' and then clicking on social applications and add social application
